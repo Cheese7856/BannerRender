@@ -1,0 +1,278 @@
+#canvas {
+  width: 160px;
+  height: 320px;
+  padding: 8px;
+  position: relative;
+  background: white;
+}
+
+#canvas i {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+i {
+  display: inline-block;
+}
+
+i[clr="BLACK"] {
+  background: url(../img/black.png);
+}
+i[clr="RED"] {
+  background: url(../img/red.png);
+}
+i[clr="GREEN"] {
+  background: url(../img/green.png);
+}
+i[clr="BROWN"] {
+  background: url(../img/brown.png);
+}
+i[clr="BLUE"] {
+  background: url(../img/blue.png);
+}
+i[clr="PURPLE"] {
+  background: url(../img/purple.png);
+}
+i[clr="CYAN"] {
+  background: url(../img/cyan.png);
+}
+i[clr="GRAY"] {
+  background: url(../img/gray.png);
+}
+i[clr="DARK_GRAY"] {
+  background: url(../img/dark_gray.png);
+}
+i[clr="PINK"] {
+  background: url(../img/pink.png);
+}
+i[clr="LIME"] {
+  background: url(../img/lime.png);
+}
+i[clr="YELLOW"] {
+  background: url(../img/yellow.png);
+}
+i[clr="LIGHT_BLUE"] {
+  background: url(../img/light_blue.png);
+}
+i[clr="MAGENTA"] {
+  background: url(../img/magenta.png);
+}
+i[clr="ORANGE"] {
+  background: url(../img/orange.png);
+}
+i[clr="WHITE"] {
+  background: url(../img/white.png);
+}
+
+i[ptn="base"] {
+  background-position: -0px -0px;
+  width: 160px;
+  height: 320px;
+}
+.tb-ptn[ptn="base"]:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../img/bg_base_sm.png") repeat scroll 0% 0% transparent;
+  width: 20px;
+  height: 40px;
+  z-index: 25;
+}
+i[ptn="square_bottom_left"] {
+  background-position: -160px -0px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="border"] {
+  background-position: -320px -0px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="square_bottom_right"] {
+  background-position: -480px -0px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="bricks"] {
+  background-position: -640px -0px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_bottom"] {
+  background-position: -0px -320px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="triangle_bottom"] {
+  background-position: -160px -320px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="triangles_bottom"] {
+  background-position: -320px -320px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="curly_border"] {
+  background-position: -480px -320px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="cross"] {
+  background-position: -640px -320px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="creeper"] {
+  background-position: -0px -640px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_center"] {
+  background-position: -160px -640px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_downleft"] {
+  background-position: -320px -640px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_downright"] {
+  background-position: -480px -640px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="flower"] {
+  background-position: -640px -640px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="gradient"] {
+  background-position: -0px -960px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="half_horizontal"] {
+  background-position: -160px -960px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="diagonal_left"] {
+  background-position: -320px -960px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_left"] {
+  background-position: -480px -960px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="circle"] {
+  background-position: -640px -960px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="mojang"] {
+  background-position: -0px -1280px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="rhombus"] {
+  background-position: -160px -1280px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_middle"] {
+  background-position: -320px -1280px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="diagonal_right"] {
+  background-position: -480px -1280px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_right"] {
+  background-position: -640px -1280px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="straight_cross"] {
+  background-position: -0px -1600px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="skull"] {
+  background-position: -160px -1600px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="small_stripes"] {
+  background-position: -320px -1600px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="square_top_left"] {
+  background-position: -480px -1600px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="square_top_right"] {
+  background-position: -640px -1600px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="stripe_top"] {
+  background-position: -0px -1920px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="triangle_top"] {
+  background-position: -160px -1920px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="triangles_top"] {
+  background-position: -320px -1920px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="half_vertical"] {
+  background-position: -480px -1920px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="gradient_up"] {
+  background-position: -640px -1920px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="half_vertical_right"] {
+  background-position: -0px -2240px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="half_horizontal_bottom"] {
+  background-position: -160px -2240px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="diagonal_up_left"] {
+  background-position: -320px -2240px;
+  width: 160px;
+  height: 320px;
+}
+i[ptn="diagonal_up_right"] {
+  background-position: -480px -2240px;
+  width: 160px;
+  height: 320px;
+}
+
+#encoded {
+  width: 400px;
+  height: 150px;
+}
